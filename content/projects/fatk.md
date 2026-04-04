@@ -13,6 +13,9 @@ the original hardware.
 
 Included is a simple engine in Sinclair BASIC that you can extend to your own specs.
 
+{{< youtube _WJTyPIXz1I >}}
+
+
 ## Downloads
 
 *Coming Soon...*
