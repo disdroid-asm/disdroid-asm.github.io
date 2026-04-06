@@ -1,6 +1,8 @@
 +++
 date = '2026-04-04T18:24:17+01:00'
 title = 'Announcing the Fantasy Adventure Tool Kit'
+tags = ['zx-spectrum','sinclair','basic','tooling','fatk']
+categories = ['ZX Spectrum','Tooling']
 +++
 # [Fantasy Adventure Tool-Kit](/projects/fatk)
 This is a multi-platform language and workbench for the creation of text adventure games.
