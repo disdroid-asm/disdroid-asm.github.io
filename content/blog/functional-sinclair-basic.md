@@ -26,7 +26,7 @@ these using `FN`.
 Here's a function that evaluates the factorial of it's parameter, using recursion:
 
 ```
-DEF FN a(n) = VAL (("n+FN a(n-1)" AND n>1) + ("n" AND n<=1))
+DEF FN a(n) = VAL (("n*FN a(n-1)" AND n>1) + ("n" AND n<=1))
 ```
 So if the parameter `n` is less than or equal to one, the function returns `n`. Otherwise, it returns `n` plus the result 
 of the recursion applied to `n` minus one.  
@@ -34,7 +34,7 @@ of the recursion applied to `n` minus one.
 The FN inside the quotes is a keyword token, so if you're not using the tokenised editor you'll need to insert the character code (168 in this case):
 
 ```
-DEF FN a(n) = VAL (("n+"+CHR$(168)+"a(n-1)" AND n>1) + ("n" AND n<=1))
+DEF FN a(n) = VAL (("n*"+CHR$(168)+"a(n-1)" AND n>1) + ("n" AND n<=1))
 ```
 
 ## How to buld an array filter
